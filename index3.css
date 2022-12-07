@@ -1,6 +1,208 @@
-body{
+/* body{
     background-color: aliceblue;
 }
 h5{
     color: blue;
+} */
+body{
+    background-color: rgb(236, 231, 231)
+
+}
+
+.navbar{
+    height: 2vh;
+   
+  
+}
+
+.navbar img{
+    height: 8vh;
+}
+.navbar ul{
+    display: flex;
+    justify-content: 6px space-between;
+  align-items: center;
+padding-top: 4px; */
+
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 10px; */
+    /* display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+margin-top: 0px;
+position: relative;
+left: 150px;
+justify-content: 70px space-between; */
+
+}
+ .menu{
+    display: none;
+    position: relative;
+    left: 780px;
+    bottom: 90px; */
+}
+   /* TRANSFORMATION; TRANSLATE MOVES IMAGES IN DIFFERENT DIRECTION */ */
+
+ .fa-bars{
+    padding-left: 40px;
+    padding-right: 300px;
+    position: relative;
+    left: 300px;
+} 
+
+ .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: none;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 8px;
+position: relative;
+bottom: 50px;
+left: 200px;
+  
+ 
+    align-items: center;
+     text-justify: center; 
+    }
+    .navbar ul li:hover{
+        color: rgb(165, 162, 162);
+        transition: 1s;
+    
+    }
+ 
+    .navbar ul li a:hover{
+    color: rgb(165, 162, 162);
+    transition: 1s;
+
+}
+.navbar button{
+    padding: 1px;
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    transition: 2s ease-out;
+    position: relative;
+    left: 920px;
+    bottom: 110px;
+}
+.navbar button:hover{
+  background-color: rgb(251, 251, 251);
+color: white;
+border:1px solid white;
+} 
+.fa-regular{
+    height: 50px;
+    margin-top: 40px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+.images{
+    overflow: auto;
+     /* border:1px solid; */
+     height: 90vh;
+     width: 100%;
+    position: relative;
+    
+    }
+
+.text{
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 100px;
+ 
+}
+
+
+.images button{
+    padding: 2px;
+    background-color: crimson;
+color: white;
+border-color: crimson;
+transition: 1s ease-out;
+}
+
+.images button:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+
+}
+.images h3{
+    font-weight: 200px;
+    font-size: 30px;
+    padding: 2px;
+}
+.images p{
+    font-size: 12px;
+    color: grey;
+
+}
+.imageone img{
+    height: 350px;
+    width: 350px;
+    float: left;
+position: relative;
+bottom: 400px;
+right: 140px;
+}
+
+.imagetwo img{
+    height: 280px;
+    width: 280px;
+    float: right;
+    position: relative;
+    bottom: 310px;
+    right: 50px;
+   
+}
+.imagethree img{
+    height:280px ;
+    width: 280px;
+    float: left;
+ 
+}
+.paper img{
+    position: relative;
+    bottom: 7px;
+    right: 400px;
+}
+.clearbg img{
+    height: 150px;
+    width: fit-content;
+    position: relative;
+    bottom: 1px;
+    right: 500px;
+}
+
+
+.imagefour img{
+    height: 250px;
+    width: 250px;
+    float: right;
+/* transform: rotate(-160deg); */
+position: relative;
+left: 200px;
+}
+.pen img{
+    position: relative;
+    left: 130px;
+    bottom: 180px;
+    width: fit-content;
+}
+
+.laptop img{
+    position: relative;
+    left: 450px;
+    bottom: 150px;
+height: 150px;
 }
